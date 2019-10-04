@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+    <link rel="stylesheet" href="../styles/header.css">
+</head>
+<body>
+
+<div class="header">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776;
+
+    </span>
+    </div>
+<div style="padding-left:20px">
+</div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Search</a>
+        <a href="#">Candidate List</a>
+        <a href="#">Select Candidate</a>
+        <a href="#">Contact</a>
+        <a href="../Logout" class="logoutbtn">Logout</a>
+
+    </div>
+
+
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+</body>
+</html>
